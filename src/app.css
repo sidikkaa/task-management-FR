@@ -1,0 +1,26 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.App {
+  @apply font-sans text-center m-10 border-solid border border-black  bg-blue-200  p-10;
+}
+
+h1 {
+  @apply text-lg font-bold mb-4 text-red-800;
+}
+ul {
+  @apply list-none p-0;
+}
+li {
+  @apply cursor-pointer border p-2 mb-2 flex justify-between items-center;
+}
+.pending {
+  @apply bg-gray-200 text-gray-900;
+}
+.late{
+  @apply bg-red-200  text-red-800;
+}
+.completed{
+  @apply bg-green-200 text-green-800;
+}
